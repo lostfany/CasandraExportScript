@@ -14,7 +14,7 @@ pip install cassandra-driver
 3. Run the script, specifying the necessary parameters in the command line:
 
 ```bash
-python export_collection.py <адрес_базы_данных> <порт_базы_данных> <логин_пользователя> <пароль_пользователя> [-d <количество_дней>]
+python export_collection.py <database_address> <database_port> <user_login> <user_password> [-d <number_of_days>]
 ```
 
 where:
